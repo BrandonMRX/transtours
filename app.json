@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "Trans Tours",
+    "slug": "transtours",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/img/logoicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/img/splashscreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCcrtNyclS_0eHH6YQrD6E-x4mH5TCnNyo"
+        }
+      },
+      "versionCode": 1,
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "CAMERA"
+      ],
+      "package": "com.transtours.transtours",
+      "googleServicesFile": "./assets/google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/img/logoicon.png"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 33,
+            "targetSdkVersion": 33,
+            "buildToolsVersion": "33.0.0"
+          },
+          "ios": {
+            "deploymentTarget": "13.4"
+          }
+        }
+      ],
+      "sentry-expo"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b151ed12-112a-464f-bbc7-c1c6594d7201"
+      }
+    }
+  }
+}

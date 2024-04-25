@@ -1,0 +1,13 @@
+diff --git a/node_modules/expo-location/android/build.gradle b/node_modules/expo-location/android/build.gradle
+index 7aaa6fb..4fd1149 100644
+--- a/node_modules/expo-location/android/build.gradle
++++ b/node_modules/expo-location/android/build.gradle
+@@ -84,7 +84,7 @@ android {
+ dependencies {
+   implementation project(':expo-modules-core')
+ 
+-  api 'com.google.android.gms:play-services-location:16.0.0'
++  api 'com.google.android.gms:play-services-location:21.0.1'
+ 
+   api('io.nlopez.smartlocation:library:3.2.11') {
+     transitive = false

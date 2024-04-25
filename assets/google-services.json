@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "790438934263",
+    "project_id": "transtours",
+    "storage_bucket": "transtours.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790438934263:android:f820bd1e782002367885f2",
+        "android_client_info": {
+          "package_name": "com.transtours.transtours"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWkykRNg9foicv1TGVgJC9k1JiwZt1QUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
